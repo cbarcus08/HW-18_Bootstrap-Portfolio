@@ -1,0 +1,181 @@
+
+.navBar {
+    background-color:pink;
+    height: 70px;
+    justify-content: center;
+}
+
+#navbarNavAltMarkup {
+    justify-content: center;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron {
+    width: 30%;
+    margin-top: 40px;
+    align-items: center;
+    text-align: left;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.picContainer {
+    background-image: url(../Images/IMG_8561_Pink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+.profilePic {
+   padding-left: 15px;
+   padding-top: 60px;
+}
+
+.img-fluid {
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logoLinks {
+    display: flex;
+    flex-direction: space-between;
+    width: 200px;
+}
+
+.imageLinksheader {
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    color: black:
+    font-style: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.h2 {
+    font-size: 25px;
+    color: black:
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-size: 15px;
+    color: black:
+    font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hireMeButton {
+    border-radius: 10px;
+    width: 100px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.resumeButton {
+    border-radius: 10px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+
+.caseStudies{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color:#dddddd;
+    /* height: 1450px; */
+
+}
+s
+.secondaryNav {
+    padding-top: 50px;
+}
+
+.cardSection {
+    margin: 50px;
+}
+
+.bottomCards {o
+    margin-top: 50px;
+}
+
+.aboutContent{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutSection {
+    padding-top: 50px;
+    margin: 50px;
+}
+
+.aboutText {
+    background-color: rgba(255,255,255,0.8);
+    size: 50px 50 px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+    padding: 35px;
+    min-width: 420px;
+}
+
+.text {
+    justify-content: center;
+    text-align: left;
+    top: 8px;
+    left: 16px;
+    color: black;
+}
+.aboutTextcontent {
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.aboutTextcontent h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.text p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.letsconnect {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: black:
+}
+
+.card-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    color: black:
+}
+
+.DOI {
+    padding-bottom: 22px;
+}
+
+.Clique {
+    padding-bottom: 22px;
+}

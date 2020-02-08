@@ -214,6 +214,11 @@ s
     padding-bottom: 15px;
 }
 
+.connect-link {
+    color: black;
+    text-decoration: underline;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -256,7 +261,7 @@ header span{
 /* The footer is fixed to the bottom of the page */
  
 footer{
-	position: fixed;
+	position: f
 	bottom: 0;
 }
  

@@ -1,11 +1,6 @@
 
 .navBar {
     background-color:pink;
-    height: 70px;
-    justify-content: center;
-}
-
-#navbarNavAltMarkup {
     justify-content: center;
 }
 
@@ -13,19 +8,18 @@
     color: white;
 }
 
-.nav-item nav-link link :hover{
-    color:#FF0080;
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
-    color:#FF0080;
-}
-
-
-
 .headerContainer {
     display: flex;
     justify-content: center;
+}
+
+.primaryNav {
+    color: white;
+    height: 80px;
+}
+
+.active {
+    color: black;
 }
 
 
@@ -144,6 +138,7 @@ a:hover {
 }
 
 .caseStudies{
+    background-image: url(../Images/Abstract-BG.jpg);
     margin-top: 15px;
     margin-bottom: 15px;
     background-color:#dddddd;
@@ -253,17 +248,9 @@ header h2{
 	color: #F05283;
 }
  
-header span{
-	color: #3F71EA;
-}
- 
- 
 /* The footer is fixed to the bottom of the page */
  
-footer{
-	position: f
-	bottom: 0;
-}
+
  
 @media (max-height:800px){
 	footer { position: static; }
@@ -277,35 +264,17 @@ footer{
 	width: 100%;
 	text-align: center;
 	font: bold 16px sans-serif;
-	padding: 50px 50px 60px 50px;
+	padding: 50px 50px 20px;
 	margin-top: 50px;
 }
  
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
+.footer-distributed  {
 	display: inline-block;
 	vertical-align: top;
 }
  
-/* Footer left */
- 
-.footer-distributed .footer-left{
-	width: 30%;
-}
- 
-.footer-distributed h3{
-	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
-	margin: 0;
-}
-
- 
-/* Footer links */
- 
 .footer-distributed .footer-links{
 	color:  #ffffff;
-	margin: 20px 0 12px;
 }
  
 .footer-distributed .footer-links a{
@@ -316,14 +285,11 @@ footer{
     font-size: 20px;
 }
 
- 
-/* Footer Center */
- 
-.footer-distributed .footer-center{
-	width: 35%;
+.footer-links {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
- 
- 
+
 .footer-distributed .footer-center i{
 	background-color:  #33383b;
 	color: #ffffff;
@@ -332,8 +298,6 @@ footer{
 	height: 38px;
 	border-radius: 50%;
 	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
 	vertical-align: middle;
 }
 
@@ -341,33 +305,39 @@ footer{
 .footer-distributed .footer-center p{
 	display: inline-block;
 	color: #ffffff;
-	vertical-align: middle;
-	margin:0;
+	vertical-align: middle;	
 }
- 
-.footer-distributed .footer-center p span{
-	display:block;
-	font-weight: normal;
-	font-size:14px;
-	line-height:2;
+
+.footer-right {
+    maring: 5px;
 }
- 
-.footer-distributed .footer-center p a{
-	color:  #e0ac1c;
-	text-decoration: none;;
+
+.footer-company-about {
+    font-size: 28px;
+    font-family: 'Bad Script', cursive;
+    color: #FF0080;
+    margin: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-company-about p {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.author {
+    font-size: 20px;
+    font-family: 'Bad Script', cursive;
+    color: #FF0080;
 }
  
 @media (max-width: 880px) {
  
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
+	.footer-distributed {
 		display: block;
 		width: 100%;
-		margin-bottom: 40px;
 		text-align: center;
 	}
  
-	.footer-distributed .footer-center i{
-		margin-left: 0;
-	}
+	

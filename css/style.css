@@ -10,11 +10,15 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #FF0080;
+    color: white;
 }
 
 .nav-item nav-link link :hover{
-    color:#86888A;
+    color:#FF0080;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#FF0080;
 }
 
 
@@ -42,7 +46,7 @@
 
 .profilePic {
    padding-left: 15px;
-   padding-top: 40px;
+   padding-top: 80px;
    width: 450px;
 }
 
@@ -130,13 +134,13 @@ h4 {
 }
 
 a {
-    color:#FF0080;
+    color:white;
     text-decoration: none;
     background-color: transparent;
 }
 
 a:hover {
-    color:#86888A;
+    color:#FF0080;
 }
 
 .caseStudies{
@@ -301,9 +305,10 @@ footer{
  
 .footer-distributed .footer-links a{
 	display:inline-block;
-	line-height: 2;
 	text-decoration: none;
-	color:  #FF0080;
+    color:  white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 }
 
  

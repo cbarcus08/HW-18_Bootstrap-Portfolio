@@ -8,12 +8,6 @@
     color: white;
 }
 
-.headerContainer {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-   
-}
 .row {
     display: flex;
     justify-content: center;
@@ -31,7 +25,6 @@
 .jumbotron {
     width: 30%;
     margin-top: 40px;
-    margin-right: 20px;
     align-items: center;
     text-align: left;
     background-color: white;
@@ -46,7 +39,7 @@
 
 .profilePic {
    padding-left: 15px;
-   padding-top: 65px;
+   padding-top: 50px;
    width: 450px;
 }
 
@@ -294,6 +287,10 @@ header h2{
 .footer-links {
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.footer-links a:hover{
+    color: #FF0080;
 }
 
 .footer-distributed .footer-center i{
